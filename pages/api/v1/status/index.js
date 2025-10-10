@@ -1,5 +1,5 @@
 function status(request, response) {
-  response.status(200).json({ chave: "this is a key" });
+  response.status(200).json({ status: "working" });
 }
 
 export default status;
